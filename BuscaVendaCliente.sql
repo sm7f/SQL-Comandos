@@ -9,3 +9,7 @@ Select * from VENDA where(SiglaTipoDocFiscal IN ( 'NFC','ECF','NFE'))AND Identif
 Select * from Venda where SiglaTipoDocFiscal like 'inicial%'
 
 Select * from Venda where SiglaTipoDocFiscal like '%final'
+
+Select codigoprodutoanp from PRODUTO where CdProduto = '023258'
+
+Update PRODUTO set codigoprodutoanp ='' where CdProduto = '023258'
