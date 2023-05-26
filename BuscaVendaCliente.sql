@@ -13,3 +13,5 @@ Select * from Venda where SiglaTipoDocFiscal like '%final'
 Select codigoprodutoanp from PRODUTO where CdProduto = '023258'
 
 Update PRODUTO set codigoprodutoanp ='' where CdProduto = '023258'
+
+Select COUNT (*) from CdProduto
