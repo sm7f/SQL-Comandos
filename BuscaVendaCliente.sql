@@ -15,3 +15,9 @@ Select codigoprodutoanp from PRODUTO where CdProduto = '023258'
 Update PRODUTO set codigoprodutoanp ='' where CdProduto = '023258'
 
 Select COUNT (*) from CdProduto
+
+Select cdempresa from empresa                   /* Visualiza apenas quantidade de empresas */
+
+Select * from empresa                          /* Visualiza empresas cadastradas no banco */
+
+
