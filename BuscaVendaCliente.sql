@@ -10,13 +10,13 @@ Select * from Venda where SiglaTipoDocFiscal like 'inicial%'
 
 Select * from Venda where SiglaTipoDocFiscal like '%final'
 
-Select codigoprodutoanp from PRODUTO where CdProduto = '023258'
+Select CodigoProdutoAnp from PRODUTO where CdProduto = '023258'
 
-Update PRODUTO set codigoprodutoanp ='' where CdProduto = '023258'
+Update PRODUTO set CodigoProdutoAnp ='' where CdProduto = '023258'
 
 Select COUNT (*) from CdProduto
 
-Select * from NFE where nrnfe = '120308'
+Select * from NFE where NRNFE = '120308'
 
 select * from VENDA order by DataHoraVenda desc 
 
