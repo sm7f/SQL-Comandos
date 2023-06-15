@@ -22,3 +22,5 @@ select * from VENDA order by DataHoraVenda desc
 
 update VENDA set SiglaStatusVenda = 'VF' where CdVenda = '424663'
 
+Select * from VERSAO_SISTEMA
+
