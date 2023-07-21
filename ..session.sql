@@ -1,0 +1,1 @@
+SELECT * from CD_Cliente
