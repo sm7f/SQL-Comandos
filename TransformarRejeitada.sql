@@ -1,5 +1,5 @@
 update nfe set StatusContingencia=1 where Id='53230703778352000160901080000001159232533892'
-update nfe set StatusAndamento='NN' where Id='53230804071316000125901080000000949974862973'
+update nfe set StatusAndamento='NN' where Id='53230921320407000176901080000015239555800720'
 
 
 Transformar em Cancelada
