@@ -1,3 +1,4 @@
+Trasnformar em Rejeitada
 update nfe set StatusContingencia=1 where Id='53230703778352000160901080000001159232533892'
 update nfe set StatusAndamento='NN' where Id='53230921320407000176901080000015239555800720'
 
@@ -5,3 +6,5 @@ update nfe set StatusAndamento='NN' where Id='5323092132040700017690108000001523
 Transformar em Cancelada
 update nfe set StatusCancelada='1' where Id='53230811960064000150901080000000571643794366'
 update nfe set StatusCancelada='1' where Id='53230811960064000150901080000000581010685645'
+
+teste 
