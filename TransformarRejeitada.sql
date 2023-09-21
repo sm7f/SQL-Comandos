@@ -7,4 +7,3 @@ Transformar em Cancelada
 update nfe set StatusCancelada='1' where Id='53230811960064000150901080000000571643794366'
 update nfe set StatusCancelada='1' where Id='53230811960064000150901080000000581010685645'
 
-teste 
