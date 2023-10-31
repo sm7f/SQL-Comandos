@@ -1,0 +1,1 @@
+select * from PRODUTO where CdProduto >= '10107' and CdProduto <=  '10112'

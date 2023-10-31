@@ -1,0 +1,1 @@
+Delete from NOTA_FISCAL where NrDoctoNF = '9233'

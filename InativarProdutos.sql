@@ -1,0 +1,1 @@
+Update PRODUTO set StatusAtivoProduto = 0 where CdProduto >= '10105' and CdProduto <=  '10106'
