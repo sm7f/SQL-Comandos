@@ -1,0 +1,1 @@
+select * from VENDA where cdempresa = 7 and datahoravenda >= '2023-01-01' order by datahoravenda desc
