@@ -1,0 +1,4 @@
+use polisystemserversqldb
+go
+update versao_sistema set nrversaosistemainstalado=922
+go
