@@ -19,5 +19,13 @@
     "editor.renderLineHighlight": "gutter",
     "editor.fontLigatures": true,
     "workbench.editor.labelFormat": "short",
-    "explorer.compactFolders": false
+    "explorer.compactFolders": false,
+    "workbench.statusBar.visible": false,
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 11,
+            "y": 18
+        }
+    }
 }
