@@ -1,14 +1,18 @@
-function boolToWord(bool){
-    if(bool === true){
-      return{
-        state:true,msg:'Yes'
-      } 
-    }else{
-      return{
-        state:false,msg:'No'
-      }
+const Bools = {
+  vdBool:function(bool){
+    if(bool > 0){
+      return {state:true, msg:'Bool é verdadeiro'}
+    }else if(bool < 0){
+      return {state:false, msg:'Número negativo'}
+    }else if(bool === 0){
+      return {state: false, msg:'Bool resultado zero'}
     }
   }
-  const nome = '2.0'
-  
-  console.log(nome.boolToWord())
+}
+function applyValidBool(bool){
+  return Bools.vdBool(bool)
+}
+
+module.exports = {
+  applyValidBool:applyValidBool,
+}

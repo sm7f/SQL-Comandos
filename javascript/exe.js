@@ -1,5 +1,5 @@
-const applyFunction = require('../javascript/brincando')
+const applyModule = require('../javascript/brincando')
 
-console.log(applyFunction.applyValidEmail("aajkhsdfgsadjkf@gmail.com"))
-console.log(applyFunction.applyValidName("HERBERTH AMORIM"))
-console.log(applyFunction.applyValidPassword("16725312635@Mn"))
+console.log(applyModule.applyValidBool(1))
+console.log(applyModule.applyValidBool(-1))
+console.log(applyModule.applyValidBool(0))
