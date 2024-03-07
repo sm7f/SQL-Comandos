@@ -1,27 +1,32 @@
-const characterHead = {
+const character = {
     typeHead:function(){
         const hModel = ['Cabelo','orelha','olhos','nariz','boca']
         return hModel
-    }
-}
-const characterBody = {
-    typeHead:function(){
-        const hModel = ['Cabelo','orelha','olhos','nariz','boca']
+    },
+    typeBody:function(){
+        const hModel = ['Tronco','Abdomen','Cintura']
         return hModel
-    }
-}
-const characterArms = {
-    typeHead:function(){
-        const hModel = ['Cabelo','orelha','olhos','nariz','boca']
-        return hModel
-    }
-}
-const characterLegs = {
-    typeHead:function(){
-        const hModel = ['Cabelo','orelha','olhos','nariz','boca']
+    },
+    typeLegs:function(){
+        const hModel = ['Posteriores','Inferiores','Gluteo','Panturrilha']
         return hModel
     }
 }
 
-console.log(character.typeHead())
+function applyObj(Obj){
+    if(Obj == 1){
+        return character.typeHead()
+    }else if(Obj == 2){
+        return {
+            msg:'Estrutura',state:character.typeBody()
+        }
+    }else if(Obj == 3){
+        return character.typeLegs()
+    }else{
+        return{state:false,msg:'Opção Invalida'}
+    }
+}
+module.exports = {
+    applyObj:applyObj
+}
 

@@ -1,18 +1,23 @@
-const Bools = {
-  vdBool:function(bool){
-    if(bool > 0){
-      return {state:true, msg:'Bool é verdadeiro'}
-    }else if(bool < 0){
-      return {state:false, msg:'Número negativo'}
-    }else if(bool === 0){
-      return {state: false, msg:'Bool resultado zero'}
-    }
-  }
-}
-function applyValidBool(bool){
-  return Bools.vdBool(bool)
-}
+const person = {
+  nome:'Gabriel',
+  sobrenome:'Amaram',
+  idade:22,
+  altura:1.65,
+  especialista:'Xadrez'
+};
+const teste1 = {
+  nome:'Gabriel',
+  sobrenome:'Amaram',
+  idade:22,
+  altura:1.65,
+  especialista:'Xadrez'
+};
+const teste2 = {
+  nome:'Gabriel',
+  sobrenome:'Amaram',
+  idade:22,
+  altura:1.65,
+  especialista:'Xadrez'
+};
 
-module.exports = {
-  applyValidBool:applyValidBool,
-}
+console.log({...person},{...teste1},{...teste2})

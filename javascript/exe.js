@@ -1,6 +1,5 @@
-const applyModule = require('../javascript/brincando')
+const applyArrow = require('../javascript/brincando')
 
-console.log(applyModule.applyValidBool(1))
-console.log(applyModule.applyValidBool(-1))
-console.log(applyModule.applyValidBool(0))
-
+console.log(applyArrow.attract(1, null, null))
+console.log(applyArrow.attract(null, 2, null))
+console.log(applyArrow.attract(null, null, 3))
