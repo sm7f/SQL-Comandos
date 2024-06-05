@@ -8,6 +8,6 @@ select cdempresa,cnpjempresa,identificacaoempresa from empresa
 
 delete from cdempresa where cdempresa = 4
 
-insert into funcionario_empresa (cdempresa,cdfuncionario) values (8,1)
+insert into funcionario_empresa (cdempresa,cdfuncionario) values (3,1)
 
 Delete from config_nfe where idconfignfe=2
