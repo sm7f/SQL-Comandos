@@ -21,9 +21,17 @@ WHERE CDVENDA BETWEEN 1 AND 100;
 WHERE CDVENDA IN ('', '', '','','','','','','','','')
 WHERE CDVENDA = 165465 OR CDVENDA = 456465 OR CDVENDA = 456456 
 
+<<<<<<< HEAD
 
 \\* alterar *//
 UPDATE NFE
 SET STATUSAPROVADA = 1
 WHERE NRNFE IN ('7898', '7906', '7907','7910','7912','7913','7914','7916')
   AND NATUREZAOPNFE LIKE '%prestação de serviços%';
+=======
+\\* Altera Status NF-e em Lote *//
+UPDATE NFE
+SET STATUSAPROVADA = 1
+WHERE NRNFE BETWEEN 4955 AND 4964
+  AND NATUREZAOPNFE LIKE '%prestação de serviços%';
+>>>>>>> e7ace02d8d1e93c15f4e370eb8acd18beb47928d
