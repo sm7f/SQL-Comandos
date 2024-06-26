@@ -11,3 +11,4 @@ WHERE     (dbo.VENDA.DataHoraVenda >= CONVERT(DATETIME, '2023-12-01 00:00:00', 1
 select COUNT (CdVenda) from VENDA where DataHoraVenda >= '2023-12-01' and DataHoraVenda <= '2023-12-31'
  
 select COUNT (NrNFe) from NFE where DataEmissaoNFe >= '2023-12-01' and DataEmissaoNFe <= '2023-12-31'
+
