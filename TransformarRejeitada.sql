@@ -5,13 +5,13 @@ update nfe set StatusAndamento='NN' where Id='5323110514314700015455001000001751
 
 Transformar em Cancelada
 update nfe set StatusCancelada='1' where Id='53240307765103000353550020000001041345614430'
-update nfe set StatusCancelada='1' where Id='53240503756654000138550020000000011234399861'
+update nfe set StatusCancelada='1' where Id='53240600882780000140901080000031681924075972'
 
 Transformar em Aprovada-
 
 use polisystemserversqldb
 go
-update nfe set statusaprovada = 1 where id = '53240432926557000144901080000005211706429298'
+update nfe set statusaprovada = 1 where id = '553240753758614000101901080000003241746296411'
 go
 
 -
