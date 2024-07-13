@@ -43,8 +43,8 @@ FROM NOTA_FISCAL_ITENS
 WHERE CdProduto IN ;
 
 
-SELECT CdProduto, DescricaoProduto, CdProdutoTributos
-FROM PRODUTO
+UPDATE PRODUTO
+SET CdProdutoTributos = 16
 WHERE CdProduto IN (
 
 ) AND CdProdutoTributos = 1;
