@@ -28,3 +28,23 @@ UPDATE NFE SET STATUSAPROVADA = 1 WHERE ID IN ('53240753758614000101901080000003
 go
   AND NATUREZAOPNFE LIKE '%prestação de serviços%';
 
+
+
+
+\\\ Processo para alterar perfil tributario de varios itens 
+SELECT * 
+FROM NOTA_FISCAL 
+WHERE DataSaidaEntradaNF >= '2024-07-09' 
+  AND DataSaidaEntradaNF  < '2024-07-11';
+GO
+
+SELECT NrDoctoNF, CdProduto
+FROM NOTA_FISCAL_ITENS
+WHERE CdProduto IN ;
+
+
+UPDATE PRODUTO
+SET CdProdutoTributos = 16
+WHERE CdProduto IN (
+
+) AND CdProdutoTributos = 1;
