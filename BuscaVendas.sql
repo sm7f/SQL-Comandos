@@ -1,12 +1,14 @@
 SELECT * 
 FROM VENDA 
-WHERE DataHoraVenda >= '2024-06-25' 
-  AND DataHoraVenda < '2024-06-27';
+WHERE DataHoraVenda >= '2024-07-10' 
+  AND DataHoraVenda < '2024-07-12';
 GO
 
 
 // Altera Status Venda *//
-update VENDA set SiglaStatusVenda = 'VF' where CdVenda = '424663'
+update VENDA 
+set SiglaStatusVenda = 'VF' 
+where CdVenda = '424663'
 
 
 // Altera NrFiscal Venda *//
