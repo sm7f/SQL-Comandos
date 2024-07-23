@@ -1,8 +1,6 @@
 SELECT * 
 FROM VENDA 
-WHERE DataHoraVenda >= '2024-07-10' 
-  AND DataHoraVenda < '2024-07-12';
-GO
+WHERE DataHoraVenda > '2024-07-23' 
 
 
 // Altera Status Venda *//
