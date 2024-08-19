@@ -11,7 +11,7 @@ Transformar em Aprovada-
 
 use polisystemserversqldb
 go
-update nfe set statusaprovada = 1 where id = '553240753758614000101901080000003241746296411'
+update nfe set statusaprovada = 1 where id = '53240772607203000151901080000004549082384748'
 go
 
 -
