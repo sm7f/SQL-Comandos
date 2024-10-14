@@ -4,7 +4,7 @@ update nfe set StatusAndamento='NN' where Id='5323110514314700015455001000001751
 
 
 Transformar em Cancelada
-update nfe set StatusCancelada='1' where Id='53240307765103000353550020000001041345614430'
+update nfe set StatusCancelada='1' where Id='53241026424960000172901080000012271364081468'
 update nfe set StatusCancelada='1' where Id='53240600882780000140901080000031681924075972'
 
 Transformar em Aprovada-
