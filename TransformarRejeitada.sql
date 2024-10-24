@@ -14,4 +14,12 @@ go
 update nfe set statusaprovada = 1 where id = '53240772607203000151901080000004549082384748'
 go
 
--
+Altera a contiengencia para Rejeitada
+select * from NFE where statuscontingencia = 1 and nfservico = 1 and StatusAndamento = 'NV'
+select * from NFE where nfservico = 1 and StatusAndamento = 'NV'
+
+update NFE set StatusContingencia = 0 
+where statuscontingencia = 1 and nfservico = 1 and StatusAndamento = 'NV'
+
+update NFE set StatusAndamento = 'NN' 
+where nfservico = 1 and StatusAndamento = 'NV'
