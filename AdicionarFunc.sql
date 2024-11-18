@@ -1,1 +1,1 @@
-insert into funcionario_empresa (cdfuncionario,cdempresa) values (1, 7)
+insert into funcionario_empresa (cdfuncionario,cdempresa) values (1, 19)
