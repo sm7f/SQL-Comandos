@@ -1,6 +1,5 @@
-SELECT * 
-FROM VENDA 
-WHERE DataHoraVenda > '2024-07-23' 
+SELECT cdvenda, DataHoraVenda, valortotalvenda
+FROM VENDA WHERE DataHoraVenda > '2024-11-21' 
 
 
 // Altera Status Venda *//
@@ -25,3 +24,4 @@ OK
 ---------------------------
 
 
+922_NmFerragens
