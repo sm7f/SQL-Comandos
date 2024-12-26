@@ -11,7 +11,7 @@ Transformar em Aprovada-
 
 use polisystemserversqldb
 go
-update nfe set statusaprovada = 1 where id = '53241104662574000186901080000036941560873701'
+update nfe set statusaprovada = 1 where id = '53241216942189000171901080000016051932762516'
 go
 
 Altera a contiengencia para Rejeitada
