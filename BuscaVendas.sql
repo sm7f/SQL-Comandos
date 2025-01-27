@@ -1,5 +1,5 @@
 SELECT cdvenda, DataHoraVenda, valortotalvenda
-FROM VENDA WHERE DataHoraVenda > '2024-11-21' 
+FROM VENDA WHERE DataHoraVenda > '2025-01-22' 
 
 
 // Altera Status Venda *//
