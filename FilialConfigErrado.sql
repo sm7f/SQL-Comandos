@@ -2,7 +2,7 @@ select cdempresa, cdfuncionario from funcionario_empresa
 
 select cdempresa from config_geral_sys
 
-select cdempresa, nomeempresa from empresa
+select cdempresa, nomeempresa, cnpjempresa from empresa
 
 select cdempresa,cnpjempresa,identificacaoempresa from empresa
 
