@@ -1,3 +1,4 @@
+// Seleciona o Dia //
 SELECT cdvenda, DataHoraVenda, valortotalvenda
 FROM VENDA WHERE DataHoraVenda > '2025-01-22' 
 
@@ -12,7 +13,6 @@ FROM VENDA
 WHERE YEAR(DataHoraVenda) = YEAR(GETDATE()) 
   AND MONTH(DataHoraVenda) = MONTH(GETDATE())
 
-
 //Mês anterior *//
 SELECT cdvenda, DataHoraVenda, valortotalvenda
 FROM VENDA
@@ -23,7 +23,7 @@ WHERE YEAR(DataHoraVenda) = YEAR(DATEADD(MONTH, -1, GETDATE()))
 // Altera Status Venda *//
 update VENDA 
 set SiglaStatusVenda = 'VF' 
-where CdVenda = '485256'
+where CdVenda = '50178'
 
 
 // Altera NrFiscal Venda *//

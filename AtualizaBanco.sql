@@ -1,4 +1,4 @@
 use polisystemserversqldb
 go
-update versao_sistema set nrversaosistemainstalado=978
+update versao_sistema set nrversaosistemainstalado=995
 go
